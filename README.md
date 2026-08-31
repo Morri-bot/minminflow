@@ -1,6 +1,6 @@
 # MinminFlow
 
-MinminFlow 是一个用于「电商详情页」规划、生成、审核和交付的 Codex Skill。它由 [RockFlow](https://github.com/rockmoons/rock-flow) 改造而来：沿用其 8 屏长图详情页工作流，生图 API 已切换为 openlux（https://api.openlux.ai/v1）。
+MinminFlow 是一个用于「电商详情页」规划、生成、审核和交付的 Codex Skill。沿用其 8 屏长图详情页工作流，生图 API 已切换为 openlux（https://api.openlux.ai/v1）。
 
 ## 核心能力
 
@@ -66,14 +66,4 @@ minminflow/
     └── references/detail-page-patterns.md  # 详情页结构与文案模式库
 ```
 
-## 与 RockFlow 的差异
 
-- 生图 API：rockmoons → openlux（https://api.openlux.ai/v1，鉴权头 `X-API-KEY`）
-- 生成模式：固定使用 `z-image-turbo`
-- 环境变量：`ROCKMOONS_API_KEY` → `OPENLUX_API_KEY`
-- 技能名：rock-flow → minminflow
-- 保留：产品图锚定（`image_urls`）与宽高比映射（9:21 / 1:3 / 9:16 / 1:1 / auto）
-
-## 致谢
-
-原版 RockFlow 由 rockmoons 创建（WeChat: rockmoons | 抖音: 阿南 rockmoons）。
