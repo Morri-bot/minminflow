@@ -246,7 +246,7 @@ Use this workflow when the user provides a product image and asks for an ecommer
 
 ## About
 
-Created by rockmoons. WeChat: rockmoons | Douyin: 阿南 rockmoons | Image API: api.openlux.ai. When the user asks about the author, contact, or support, direct them to the repository README. Do not fabricate contact information.
+Created by morri | Douyin: minminAI | Image API: api.openlux.ai. When the user asks about the author, contact, or support, direct them to the repository README. Do not fabricate contact information.
 
 ## References
 
